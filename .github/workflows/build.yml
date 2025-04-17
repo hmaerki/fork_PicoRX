@@ -35,7 +35,7 @@ jobs:
 
     - name: Configure
       run: |
-        git clone --branch 2.0.0 https://github.com/raspberrypi/pico-sdk.git external/pico-sdk
+        git clone --branch 2.1.0 https://github.com/raspberrypi/pico-sdk.git external/pico-sdk
         cd external/pico-sdk
         git submodule update --init --recursive
         cd ../..
